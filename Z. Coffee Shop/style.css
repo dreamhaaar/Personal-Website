@@ -1,0 +1,331 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    min-height: 250vh;
+}
+
+.nav-bar {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 10px 5px 0px 5px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+li {
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    margin-left: -28px;
+    width: 35%;
+}
+
+.first-page {
+    height: 100vh;
+}
+
+.nav-list li,
+.logo li {
+    color: rgb(223, 208, 171);
+    color: white;
+    color: #f8c9b2;
+
+}
+
+.logo {
+    display: flex;
+    width: 60%;
+    gap: 5px;
+
+}
+
+p {
+    font-family: 'Roboto Mono';
+}
+
+.cafe {
+    width: 25%;
+    height: fit-content;
+}
+
+.front {
+    display: flex;
+    margin-top: 100px;
+}
+
+.intro {
+    width: 50%;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.image {
+    width: 50%;
+    text-align: center;
+
+}
+
+.cafe {
+    height: 500px;
+    width: 400px;
+    border: 2px solid grey;
+
+}
+
+h1 {
+    font-size: 70px;
+}
+
+#cup {
+    height: 40px;
+    margin-top: -13px;
+}
+
+hr {
+    margin-top: 65px;
+}
+
+#button {
+    font-family: 'Roboto Mono';
+    color: white;
+    background-color: rgba(197, 144, 144, 0.849);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+#button:hover {
+    color: white;
+    background-color: brown
+}
+
+.menu-items {
+    display: flex;
+    gap: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./coffee-bean.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    margin-top: 120px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-bottom: 10vh;
+}
+
+
+
+.menu-name {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-name>h3 {
+    font-size: 35px;
+    font-family: 'Playfair Display';
+    color: #E8CD45;
+}
+
+.menu-name li {
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    color: burlywood;
+    margin-bottom: 12px;
+}
+
+.menu>h2 {
+    font-size: 55px;
+    color: #E87C45;
+}
+
+.intro>h1 {
+    color: #E87C45;
+}
+
+.intro p {
+    color: burlywood;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pic {
+    width: 450px;
+    height: 300px;
+}
+
+.pic-row {
+    display: flex;
+    gap: 20px;
+}
+
+.food-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.food-gallery>h2 {
+    font-family: 'Playfair Display';
+    font-size: 55px;
+    color: #E87C45;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+
+
+.visit-us {
+
+    background-image: url(./visit-pic.jpg);
+
+}
+
+
+
+
+#about-us {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+
+.about-us>h2 {
+    font-family: 'Playfair Display';
+    font-size: 45px;
+    color: #E87C45;
+}
+
+.about-us p {
+    color: burlywood;
+}
+
+footer p {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 0;
+    top: 100px;
+    color: #E87C45;
+
+}
+
+
+
+
+
+.food-gallery {
+
+    height: 100vh;
+    margin-top: -30px;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    width: 87%;
+    column-gap: 30px;
+    row-gap: 20px;
+    align-items: center;
+
+}
+
+.photos>img {
+    width: 400px;
+    transition: 0.4s ease;
+    border: 2px solid white;
+    object-fit: fill;
+}
+
+.photos:hover> :not(:hover) {
+    filter: blur(8px);
+}
+
+.visit-us {
+    height: 95vh;
+    background-color: antiquewhite;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 90px;
+}
+
+
+.visit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(112, 91, 64);
+    margin-top: 220px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px 5px burlywood;
+
+  
+}
+
+.visit>h2 {
+    font-size: 55px;
+    font-family: 'Playfair Display';
+    margin-top: 13px;
+}
+
+.visit-us p {
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+
+.menu-name{
+    box-shadow: 2px 2px 5px 5px burlywood;
+    padding: 10px 10px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.menu-name:hover{
+    transform: scale(1.05);
+}
+
+.visit:hover{
+    transform: scale(1.05);
+}
