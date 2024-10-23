@@ -1,0 +1,62 @@
+body{
+    font-family: 'Afacad Flux';
+    font-size: 3em;
+    background-color: #C96868;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dices{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.dice1{
+    width: 30%;
+    background-color: #FADFA1;
+    border-radius: 15px;
+  
+}
+.dice2{
+    width: 30%;
+    background-color: #FADFA1;
+    border-radius: 15px;
+
+}
+
+.bot{
+    background-color: #FFF4EA;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+.bot:hover{
+    background-color: #7EACB5;
+    color: white;
+}
+
+.vs{
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1{
+    margin-top: 10px;
+}
+
+footer{
+    font-size: 24px;
+    text-align: center;
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Dice Randome Generator</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Who's Lucky? 🤔 </h1>
+
+    <div class="dices">
+      <div class="dice1">
+        <p>Player 1</p>
+        <img class="img1" src="./images/dice6.png" />
+      </div>
+
+      <img src="./images/vs.png" alt="" class="vs">
+     
+
+      <div class="dice2">
+        <p>Player 2</p>
+        <img class="img2" src="./images/dice6.png" />
+      </div>
+    </div>
+    <div class="bots">
+      <input type="button" value="PLAY" class="bot" id="w" onclick="randomized()">
+    <input type="button" value="RESET" class="bot" onclick="reloader()">
+    </div>
+    
+  </div>
+
+  
+ <footer>🎲 ReiSan 🎲</footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
