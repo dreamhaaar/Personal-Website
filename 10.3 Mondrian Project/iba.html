@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .holder {
+      display: grid;
+      height: 774px;
+      width: 815px;
+      grid-template-columns: 100px 250px 250px 60px 60px 50px;
+      grid-template-rows: 60px 170px 170px 90px 80px 100px 50px;
+      background-color: black;
+      gap: 9px;
+    }
+
+    .white {
+      background-color: #F0F1EC;
+    }
+
+    .yellow {
+      background-color: #F9D01E;
+    }
+
+    .red {
+      background-color: #E72F24;
+    }
+
+    .blue {
+      background-color: #004592;
+    }
+
+    .black {
+      background-color: black;
+    }
+
+    .white2 {
+      grid-column: span 2;
+    }
+
+    .white3 {
+      grid-row: span 4;
+    }
+
+    .white33 {
+      grid-row: span 3;
+    }
+
+    .red1 {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .white7 {
+      grid-column: span 2;
+    }
+
+    .yellow {
+      grid-column: span 2;
+    }
+
+    .yellow3 {
+      grid-column: span 1;
+      grid-row: span 3;
+    }
+
+    .blue {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .red2 {
+      grid-row: span 3;
+    }
+
+    .white10 {
+      grid-row: span 2;
+    }
+
+    .white11 {
+      grid-column: 3 /6;
+      grid-row: 7/ 8;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+
+    <div class="holder">
+
+      <div class="white white"></div>
+      <div class="white white2"></div>
+      <div class="yellow yellow"></div>
+
+      <div class="white white3"></div>
+      <div class="white white33"></div>
+      <div class="red red1"></div>
+      <div class="yellow yellow2"></div>
+      <div class="white white4"></div>
+      <div class="white white5"></div>
+      <div class="black black"></div>
+      <div class="white white6"></div>
+      <div class="white white7"></div>
+
+      <div class="yellow yellow3"></div>
+      <div class="white white8"></div>
+      <div class="white white9"></div>
+      <div class="blue blue"></div>
+      <div class="red red2"></div>
+      <div class="white white10"></div>
+      <div class="white white11"></div>
+      <div class="black black"></div>
+
+
+
+
+    </div>
+
+
+  </div>
+</body>
+
+</html>
