@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lesson 11: Grids</title>
+
+
+
+    <style>
+        div {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+
+        }
+
+        .profile {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 0px;
+            margin-right: 20px;
+        }
+
+        .thumbnail {
+            margin-bottom: 0px;
+        }
+
+        .preview {
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .mutuals {
+            vertical-align: top;
+
+        }
+
+        .head {
+            display: grid;
+            grid-template-columns: 50px;
+        }
+
+        .letter {
+            width: 150px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 50px 1fr 1fr;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-grid">
+
+        <div class="grid" style="background-color: red;">
+            <div class="preview">
+                <div class="thumbnail">
+                    <img class="profile" src="cat.jpg">
+                </div>
+
+                <div class="head">
+                    <div class="name">
+                        <p style="font-weight: bold;">Oliver</p>
+                    </div>
+                    <div class="info">
+                        <div class="friend">
+                            <img src="dog2.jpg"
+                                style="border-radius: 50%; width:40px; height:40px;  object-fit: cover ">
+                        </div>
+                        <div class="letter">
+                            <p class="mutuals">2 mutual friends</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
