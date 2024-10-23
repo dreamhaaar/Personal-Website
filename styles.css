@@ -1,0 +1,88 @@
+*{
+    font-family: 'Quicksand', serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F6F5F2;
+    height: 100vh;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.nav{
+    background-color: #F3D0D7;
+}
+
+#logo{
+    margin-right: 58%;
+    margin-left: -20px;
+}
+#kitty{
+    height: 50px;
+    margin-left: 20px;
+    
+}
+h1{
+    font-size: 70px;
+    color: #E9A7B4;
+}
+
+p{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.homepage{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    height: 80vh;
+}
+
+.homepage-info{
+    width: 50%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.homepage-pic{
+    width: 40%;
+    align-self: center;
+}
+
+#frieren{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+
+.btn{
+    margin-top: 25px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #FFEFEF;
+    border-width: 1px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background-color: #D0F3EC;
+    color: black;
+    cursor: pointer;
+}

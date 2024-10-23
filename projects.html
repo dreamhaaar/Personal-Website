@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Projects</title>
+    <style>
+        * {
+            font-family: 'Quicksand', serif;
+            padding: 0;
+            margin: 0;
+            font-size: 22px;
+        }
+
+        body {
+            background-color: #F6F5F2;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .card>img {
+            height: 300px;
+            width: 580px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-rows: repeat(1fr);
+            grid-template-columns: minmax(300px, 600px) minmax(300px, 600px);
+            column-gap: 40px;
+            row-gap: 40px;
+            width: 90%;
+            justify-content: center;
+
+        }
+
+        .card {
+            box-shadow: 2px 2px 5px 5px #FFC6C6;
+            background-color: #FFEFEF;
+            text-align: center;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-size: 45px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            color: #E9A7B4;
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>My Projects</h1>
+        <div class="cards">
+            <a href="/Z.DICE/dicee.html" target="_blank">
+                <div class="card">
+                    <img src="./images/proj1.png" alt="" class="pic">
+                    <p class="title">Who's Lucky?</p>
+                    <p>Status: Finished</p>
+                </div>
+            </a>
+            <a href="/Z. DRUM/index.html" target="_blank">
+                <div class="card">
+                    <img src="./images/proj2.png" alt="">
+                    <p class="title">Drum Kit</p>
+                    <p>Status: Finished</p>
+                </div>
+            </a>
+            <a href="/Z. Coffee Shop/cozycafe.html" target="_blank">
+                <div class="card">
+                    <img src="./images/proj3.png" alt="">
+                    <p class="title">Cozy Cafe</p>
+                    <p>Status: Finished</p>
+                </div>
+            </a>
+            <a href="/8.4 Web Design Agency Project/iba.html" target="_blank">
+                <div class="card">
+                    <img src="./images/proj4.png" alt="">
+                    <p class="title">Online Manga Shop</p>
+                    <p>Status: Not Finished</p>
+                </div>
+            </a>
+            <a href="/10.3 Mondrian Project/iba.html" target="_blank">
+                <div class="card">
+                    <img src="./images/proj5.png" alt="">
+                    <p class="title">Piet Mondrian</p>
+                    <p>Status: Finished</p>
+                </div>
+            </a>
+            <a href="/Z. PERSONAL WEB/index.html" target="_blank">
+                <div class="card">
+                    <img src="./images/proj6.png" alt="">
+                    <p class="title">Personal Website</p>
+                    <p>Status: Finished</p>
+                </div>
+            </a>
+            <a href="/2.4 Movie Ranking Project/index.html" target="_blank">
+                <div class="card">
+                    <img src="./images/proj7.png" alt="">
+                    <p class="title">My Favorite Anime</p>
+                    <p>Status: Finished (To be continued)</p>
+                </div>
+            </a>
+            <a href="/Z. MOCK FACEBOOK/index.html" target="_blank">
+                <div class="card">
+                    <img src="./images/proj8.png" alt="">
+                    <p class="title">Mock Social Website</p>
+                    <p>Status: Not Finished</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <footer>@NekkoSan 2024</footer>
+</body>
+
+</html>
