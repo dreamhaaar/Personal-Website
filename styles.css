@@ -86,3 +86,7 @@ p{
     color: black;
     cursor: pointer;
 }
+li:hover{
+    color: rgb(3, 169, 136);
+    text-decoration: underline;
+}
